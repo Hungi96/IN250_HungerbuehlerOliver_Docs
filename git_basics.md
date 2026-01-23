@@ -78,3 +78,6 @@ arbeiten können, ohne sich ständig Dateien hin- und herzuschicken.
 nicht verloren, auch wenn danach etwas passiert. Mit `git push` wird alles zusätzlich
 auf GitHub gesichert. Falls der Computer kaputtgeht oder man ihn liegen lassen muss,
 ist der Stand trotzdem online vorhanden. Darum: erst sichern (commit + push), dann raus.
+
+
+Dokumentation abgeschlossen.
