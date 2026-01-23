@@ -46,3 +46,35 @@ um bestimmte Dateien vom Repository auszuschliessen.
 Dabei habe ich folgende Einträge hinzugefügt:
 - *.log
 - GeheimeBankInformationen.txt
+
+
+## Aufgabe 5 – Repository mit git init erstellen
+
+Ich habe einen neuen lokalen Ordner erstellt
+und darin ein Git-Repository mit `git init` initialisiert.
+
+Anschliessend habe ich das Repository mit dem
+bereits bestehenden GitHub-Repository verbunden
+und die Daten mit `git pull` synchronisiert.
+
+Dabei bin ich wie folgt vorgegangen:
+- Neuen Ordner erstellt
+- Repository mit `git init` initialisiert
+- Remote Repository mit `git remote add` hinzugefügt
+- Branch von `master` auf `main` umgestellt
+- Inhalte mit `git pull origin main` übernommen
+
+
+## Aufgabe 6 – Warum Git?
+
+### Warum nutzt man Git in der Softwareentwicklung?
+Git hilft dabei, Änderungen am Code sauber nachzuverfolgen. Man kann jederzeit sehen,
+was geändert wurde und von wem. Ausserdem kann man auf ältere Versionen zurückgehen,
+falls etwas kaputtgeht. In Teams ist Git praktisch, weil mehrere Personen gleichzeitig
+arbeiten können, ohne sich ständig Dateien hin- und herzuschicken.
+
+### Warum bei einem Feuer zuerst `git commit` und dann `git push`?
+`git commit` speichert den aktuellen Stand lokal. Damit geht die Arbeit auf dem Laptop
+nicht verloren, auch wenn danach etwas passiert. Mit `git push` wird alles zusätzlich
+auf GitHub gesichert. Falls der Computer kaputtgeht oder man ihn liegen lassen muss,
+ist der Stand trotzdem online vorhanden. Darum: erst sichern (commit + push), dann raus.
