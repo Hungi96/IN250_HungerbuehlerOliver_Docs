@@ -25,3 +25,24 @@ Dabei bin ich wie folgt vorgegangen:
 - In den Zielordner gewechselt
 - Repository-URL von GitHub kopiert
 - Repository mit `git clone` geklont
+
+
+## Aufgabe 3 – Commit erstellen
+
+Ich habe mein Markdown-Cheatsheet in das
+lokale Repository kopiert und einen Commit erstellt.
+
+Dabei bin ich wie folgt vorgegangen:
+- Status mit `git status` geprüft
+- Dateien mit `git add` zum Commit hinzugefügt
+- Commit mit der Nachricht „Initial commit“ erstellt
+
+
+## Aufgabe 4 – Gitignore erstellen
+
+Ich habe eine `.gitignore` Datei erstellt,
+um bestimmte Dateien vom Repository auszuschliessen.
+
+Dabei habe ich folgende Einträge hinzugefügt:
+- *.log
+- GeheimeBankInformationen.txt
